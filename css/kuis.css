@@ -1,0 +1,325 @@
+/* kuis.css */
+
+/* Styling Umum untuk Body */
+body {
+    background-color: #5d99d4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Styling untuk Card Header */
+.card-header {
+    background-color: #343a40;
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/* Indikator Soal */
+#indikatorSoal .indikator {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 2px solid #6B73FF;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    animation: blink 1.5s infinite;
+}
+
+#indikatorSoal .indikator.answered {
+    background-color: #28a745;
+    border-color: #28a745;
+    animation: none;
+}
+
+#indikatorSoal .indikator.current {
+    background-color: #007bff;
+    border-color: #007bff;
+    animation: none;
+    transform: scale(1.2);
+}
+
+#indikatorSoal .indikator.unanswered {
+    background-color: #ffffff;
+    animation: blink 1.5s infinite;
+}
+
+/* Keyframes untuk Blink Animasi */
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+/* Soal Styling */
+#soal {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+/* OPSI 2: Tampilan Modern dengan Ikon & Animasi Staggered */
+
+/* Sembunyikan radio button asli */
+#pilihanJawaban .form-check-input {
+    display: none;
+}
+
+#pilihanJawaban .form-check-label {
+    display: flex; /* Gunakan flexbox untuk alignment */
+    align-items: center;
+    background-color: #ffffff;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    
+    /* Atur animasi agar tidak langsung berjalan */
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.5s ease forwards;
+}
+
+/* Animasi Staggered (muncul satu per satu) */
+#pilihanJawaban .form-check:nth-child(1) .form-check-label { animation-delay: 0.1s; }
+#pilihanJawaban .form-check:nth-child(2) .form-check-label { animation-delay: 0.2s; }
+#pilihanJawaban .form-check:nth-child(3) .form-check-label { animation-delay: 0.3s; }
+#pilihanJawaban .form-check:nth-child(4) .form-check-label { animation-delay: 0.4s; }
+
+
+#pilihanJawaban .form-check-label:hover {
+    transform: translateY(-5px);
+    border-color: #6B73FF;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+
+/* Ikon kustom sebelum label teks */
+#pilihanJawaban .form-check-label::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    margin-right: 15px;
+    transition: all 0.3s ease;
+}
+
+/* Gaya saat radio button DIPILIH */
+#pilihanJawaban .form-check-input:checked + .form-check-label {
+    background-color: #F0F1FF; /* Latar belakang yang lembut */
+    border-color: #6B73FF;
+}
+
+#pilihanJawaban .form-check-input:checked + .form-check-label::before {
+    background-color: #6B73FF;
+    border-color: #6B73FF;
+    /* SVG untuk ikon centang (putih) */
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M3 8l3 3 7-7'/%3e%3c/svg%3e");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Keyframe animasi */
+@keyframes fadeInUp {
+    to { 
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Navigasi Button */
+button.btn {
+    width: 120px;
+    transition: transform 0.2s;
+}
+
+button.btn:hover {
+    transform: scale(1.05);
+}
+
+/* Timer Styling (Versi Diperbaharui) */
+#timer {
+    /* 1. Tampilan Visual seperti "Widget" */
+    background-color: rgba(0, 0, 0, 0.2); /* Latar belakang semi-transparan agar menyatu dengan header */
+    color: #ffffff;
+    padding: 8px 15px;
+    border-radius: 50px; /* Bentuk kapsul yang modern */
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.3); /* Memberi sedikit kedalaman */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    transition: all 0.4s ease-in-out; /* Transisi halus untuk semua perubahan */
+
+    /* 2. Tipografi yang Lebih Baik */
+    font-family: 'Roboto Mono', 'Consolas', 'Courier New', monospace; /* Font monospaced agar angka tidak bergeser */
+    font-size: 1.2rem; /* Sedikit lebih besar agar mudah dilihat */
+    font-weight: 500;
+    letter-spacing: 2px; /* Jarak antar karakter agar lebih jelas */
+}
+
+/* Menambahkan Ikon Jam sebelum teks timer menggunakan pseudo-element */
+#timer::before {
+    content: '🕒'; /* Anda bisa ganti dengan ikon SVG atau dari Font Awesome */
+    margin-right: 10px;
+    font-size: 1.1rem;
+    opacity: 0.8;
+}
+
+/* 3. State Dinamis (dikontrol via JavaScript) */
+
+/* State "Peringatan" saat waktu mulai menipis */
+#timer.warning {
+    background-color: #ffc107; /* Warna kuning */
+    color: #333;
+    box-shadow: 0 0 15px #ffc107;
+}
+
+#timer.warning::before {
+    color: #333;
+    opacity: 1;
+}
+
+/* State "Bahaya" saat waktu hampir habis */
+#timer.danger {
+    background-color: #dc3545; /* Warna merah */
+    color: #ffffff;
+    box-shadow: 0 0 20px #dc3545;
+    animation: pulse-danger 1.5s infinite;
+}
+
+#timer.danger::before {
+    color: #ffffff;
+    opacity: 1;
+}
+
+/* Animasi untuk state "Bahaya" */
+@keyframes pulse-danger {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Progress Bar Styling (Versi Diperbaharui) */
+
+/* 1. Kontainer utama untuk progress bar */
+.progress {
+    height: 25px; /* Sedikit lebih tebal untuk visibilitas */
+    border-radius: 50px; /* Bentuk kapsul penuh */
+    background-color: #e9ecef; /* Warna latar belakang yang lembut */
+    padding: 4px; /* Memberi sedikit ruang di dalam */
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Penting agar .progress-bar tidak keluar dari border-radius */
+}
+
+/* 2. Bar yang menunjukkan progress sebenarnya */
+.progress-bar {
+    /* Gradien yang menarik sebagai warna utama */
+    background: linear-gradient(45deg, #555ADF, #6B73FF);
+    
+    /* Membuat tulisan persentase di dalamnya menjadi jelas */
+    color: rgb(0, 2, 105);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* Transisi pengisian yang lebih halus */
+    transition: width 0.8s cubic-bezier(0.25, 0.8, 0.25, 1);
+    
+    /* Efek garis-garis bergerak (barber pole effect) */
+    background-size: 40px 40px;
+    background-image: linear-gradient(45deg, 
+        rgba(255, 255, 255, 0.15) 25%, 
+        transparent 25%, 
+        transparent 50%, 
+        rgba(255, 255, 255, 0.15) 50%, 
+        rgba(255, 255, 255, 0.15) 75%, 
+        transparent 75%, 
+        transparent);
+    
+    /* Memicu animasi garis bergerak */
+    animation: move-stripes 2s linear infinite;
+    
+    /* Menghilangkan shadow aneh pada text di beberapa browser */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* 3. Keyframes untuk animasi garis bergerak */
+@keyframes move-stripes {
+    from {
+        background-position: 40px 0;
+    }
+    to {
+        background-position: 0 0;
+    }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 576px) {
+    #indikatorSoal .indikator {
+        width: 18px;
+        height: 18px;
+    }
+
+    button.btn {
+        width: 100px;
+    }
+
+    .progress {
+        width: 150px;
+    }
+
+    #timer {
+        font-size: 0.9rem;
+    }
+}
+
+/* Tambahkan style indikator soal */
+.indicator-dot {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid #ddd;
+}
+
+.indicator-dot.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #0056b3;
+}
+
+.indicator-dot.answered {
+    background-color: #28a745;
+    color: white;
+    border-color: #1e7e34;
+}
+
+.timer {
+    font-size: 10rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+    color: #ce1b1b;
+}

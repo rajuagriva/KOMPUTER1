@@ -1,0 +1,98 @@
+/* hasil.css */
+
+/* Styling Umum untuk Body */
+body {
+    background-color: #f0f2f5; /* Light gray background */
+}
+
+/* Styling untuk Card Header */
+.card-header {
+    background-color: #4a90e2; /* A vibrant blue */
+    color: white;
+}
+
+/* Styling untuk Progress Bar */
+.progress-bar {
+    background-color: #5cb85c; /* A standard success green */
+    transition: width 0.5s ease;
+}
+
+/* Styling untuk Timer */
+#timer {
+    font-weight: bold;
+    color: #e74c3c; /* A subtle red for emphasis */
+}
+
+/* Styling untuk Highlight Jawaban Benar */
+.table .text-success {
+    background-color: #d9edf7; /* Light blue for correct answers */
+    color: #31708f; /* Darker blue text for contrast */
+    transition: background-color 0.5s ease;
+}
+
+/* Styling untuk Highlight Jawaban Salah */
+.table .text-danger {
+    background-color: #f2dede; /* Light red for incorrect answers */
+    color: #a94442; /* Darker red text for contrast */
+    transition: background-color 0.5s ease;
+}
+
+/* Styling untuk Riwayat Kuis */
+#riwayatKuis tr:nth-child(even) {
+    background-color: #e9ecef; /* Slightly darker gray for even rows */
+}
+
+/* Styling untuk Nama Pengguna */
+#namaPengguna {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #34495e; /* Darker text for user name */
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Additional Styling for Charts */
+canvas {
+    background-color: #ffffff;
+    border: 1px solid #ced4da; /* Slightly softer border color */
+    border-radius: 8px; /* Slightly more rounded corners */
+    padding: 15px; /* Increased padding */
+    animation: slideIn 1s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+}
+
+/* Ensuring Cards are Full Height */
+.card.h-100 {
+    height: 100%;
+}
+
+/* Adding some margin to tables */
+table {
+    margin-bottom: 1.5rem; /* Increased margin */
+    animation: fadeInUp 1s ease-in-out;
+}
+
+/* Animasi */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Animasi untuk Button */
+button {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Animasi untuk Card Body */
+.card-body {
+    animation: fadeInUp 1s ease-in-out;
+}

@@ -1,0 +1,1390 @@
+[
+    {
+      "ID": "1",
+      "Kategori": "MODUL 1 : Pengenalan & Instalasi R",
+      "Soal": "R merupakan perangkat lunak yang masuk kategori open source. Itu artinya sumber programnya terdistribusi secara ....",
+      "Pilihan_jawaban": {
+        "a": "terbatas",
+        "b": "terbuka dan gratis",
+        "c": "di bawah lisensi",
+        "d": "dengan ketentuan hak cipta"
+      },
+      "Jawaban_Benar": "b"
+    },
+    {
+      "ID": "2",
+      "Kategori": "MODUL 1 : Pengenalan & Instalasi R",
+      "Soal": "Nomor versi program R yang telah Anda instal diikuti dengan ....",
+      "Pilihan_jawaban": {
+        "a": "tempat hak cipta R dikeluarkan",
+        "b": "tanggal dikeluarkannya versi R yang Anda instal",
+        "c": "keterangan mengenai software R",
+        "d": "petunjuk menu awal dari software R"
+      },
+      "Jawaban_Benar": "b"
+    },
+    {
+      "ID": "3",
+      "Kategori": "MODUL 1 : Pengenalan & Instalasi R",
+      "Soal": "Dalam menu file pada Window RGui, sub menu Source R code berfungsi untuk ....",
+      "Pilihan_jawaban": {
+        "a": "menjalankan script yang sedang ditulis",
+        "b": "memulai atau menulis program atau script R yang baru",
+        "c": "menjalankan program yang telah dibuat terlebih dahulu",
+        "d": "memperlihatkan daftar file yang ada dalam directory atau file"
+      },
+      "Jawaban_Benar": "c"
+    },
+    {
+      "ID": "4",
+      "Kategori": "MODUL 1 : Pengenalan & Instalasi R",
+      "Soal": "Tanda + yang muncul pada bagian bawah paling kiri dari tanda prompt> menunjukkan ....",
+      "Pilihan_jawaban": {
+        "a": "perintah yang diketikkan tidak lengkap",
+        "b": "output dari script",
+        "c": "adanya kesalahan penulisan program",
+        "d": "akhir dari input penulisan program"
+      },
+      "Jawaban_Benar": "a"
+    },
+    {
+      "ID": "5",
+      "Kategori": "MODUL 1 : Pengenalan & Instalasi R",
+      "Soal": "Untuk mencari isi dari suatu library packages, digunakan fungsi ....",
+      "Pilihan_jawaban": {
+        "a": "read",
+        "b": "search",
+        "c": "demo",
+        "d": "help"
+      },
+      "Jawaban_Benar": "d"
+    },
+    {
+      "ID": "6",
+      "Kategori": "MODUL 1 : Pengenalan & Instalasi R",
+      "Soal": "Untuk menjalankan atau eksekusi script yang telah ditulis dalam RGui-[untitled-R editor], tombol yang ditekan adalah ....",
+      "Pilihan_jawaban": {
+        "a": "Ctrl-R",
+        "b": "Ctrl-S",
+        "c": "Alt-R",
+        "d": "Alt-S"
+      },
+      "Jawaban_Benar": "a"
+    },
+    {
+      "ID": "7",
+      "Kategori": "MODUL 1 : Pengenalan & Instalasi R",
+      "Soal": "Untuk proses edit data melalui data editor, Anda perlu memasukkan nama .... yang ingin diubah.",
+      "Pilihan_jawaban": {
+        "a": "data",
+        "b": "LIST",
+        "c": "data frame",
+        "d": "vector"
+      },
+      "Jawaban_Benar": "c"
+    },
+    {
+      "ID": "8",
+      "Kategori": "MODUL 1 : Pengenalan & Instalasi R",
+      "Soal": "Selain menggunakan data editor, untuk mengubah data, dapat digunakan fungsi ....",
+      "Pilihan_jawaban": {
+        "a": "attach",
+        "b": "dettach",
+        "c": "fix",
+        "d": "library"
+      },
+      "Jawaban_Benar": "c"
+    },
+    {
+      "ID": "9",
+      "Kategori": "MODUL 1 : Pengenalan & Instalasi R",
+      "Soal": "Dalam perangkat lunak R, maksud dari istilah lingkungan pemrograman adalah ....",
+      "Pilihan_jawaban": {
+        "a": "suatu sistem yang telah dirancang dengan hati-hati dan koheren",
+        "b": "suatu sistem terpadu",
+        "c": "hasil pengembangan dengan pendekatan",
+        "d": "hasil pengulangan atau daur ulang dari sistem yang telah ada"
+      },
+      "Jawaban_Benar": "d"
+    },
+    {
+      "ID": "10",
+      "Kategori": "MODUL 1 : Pengenalan & Instalasi R",
+      "Soal": "Pengaturan tampilan layar dari R dapat dilakukan pada jendela ....",
+      "Pilihan_jawaban": {
+        "a": "RGui configuration editor",
+        "b": "isian data frame",
+        "c": "untitled-R editor",
+        "d": "data editor"
+      },
+      "Jawaban_Benar": "a"
+    },
+    {
+        "ID": "11",
+        "Kategori": "MODUL 2 : Mekanisme, Pembuatan Objek Dalam R",
+        "Soal": "Tanda yang akan terlihat apabila sistem R siap menerima perintah dari Anda adalah ....",
+        "Pilihan_jawaban": {
+          "a": "tanda >",
+          "b": "tanda +",
+          "c": "tanda *",
+          "d": "?"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "12",
+        "Kategori": "MODUL 2 : Mekanisme, Pembuatan Objek Dalam R",
+        "Soal": "Contoh penulisan nama objek yang benar dalam R adalah ....",
+        "Pilihan_jawaban": {
+          "a": "Nama-nama",
+          "b": "Nama 2",
+          "c": "_2 nama",
+          "d": "Nama-nama"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "13",
+        "Kategori": "MODUL 2 : Mekanisme, Pembuatan Objek Dalam R",
+        "Soal": "Contoh penulisan nama objek yang salah dalam R adalah ....",
+        "Pilihan_jawaban": {
+          "a": "Nama-nama",
+          "b": "Nama 2",
+          "c": "_2 nama",
+          "d": "Nama-nama"
+        },
+        "Jawaban_Benar": "c"
+      },
+      {
+        "ID": "14",
+        "Kategori": "MODUL 2 : Mekanisme, Pembuatan Objek Dalam R",
+        "Soal": "Objek-objek yang akan dioperasikan dalam R ditempatkan di ....",
+        "Pilihan_jawaban": {
+          "a": "memori aktif atau RAM",
+          "b": "flash disk",
+          "c": "harddisk",
+          "d": "CD"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "16",
+        "Kategori": "MODUL 2 : Mekanisme, Pembuatan Objek Dalam R",
+        "Soal": "Dua jenis perintah untuk memberikan harga 50 pada variabel umur adalah ....",
+        "Pilihan_jawaban": {
+          "a": "umur <- 50 dan 50 -> umur",
+          "b": "umur = 50 dan 50 - umur",
+          "c": "umur ?- 50 dan 50 -?umur",
+          "d": "umur *- 50 dan 50 -* umur"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "17",
+        "Kategori": "MODUL 2 : Mekanisme, Pembuatan Objek Dalam R",
+        "Soal": "Perintah yang dipakai untuk menayangkan daftar variabel yang telah ada dalam sistem R adalah ....",
+        "Pilihan_jawaban": {
+          "a": "ls()",
+          "b": "ls(pat = \"y\")",
+          "c": "ls(pat = \"^y\")",
+          "d": "rm()"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "18",
+        "Kategori": "MODUL 2 : Mekanisme, Pembuatan Objek Dalam R",
+        "Soal": "Perintah untuk menampilkan objek yang namanya mengandung huruf y adalah ....",
+        "Pilihan_jawaban": {
+          "a": "ls()",
+          "b": "ls(pat = \"y\")",
+          "c": "ls(pat = \"^y\")",
+          "d": "rm()"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "19",
+        "Kategori": "MODUL 2 : Mekanisme, Pembuatan Objek Dalam R",
+        "Soal": "Perintah untuk menayangkan semua objek yang namanya diawali dengan huruf y adalah ....",
+        "Pilihan_jawaban": {
+          "a": "ls()",
+          "b": "ls(pat = \"y\")",
+          "c": "ls(pat = \"^y\")",
+          "d": "rm()"
+        },
+        "Jawaban_Benar": "c"
+      },
+      {
+        "ID": "20",
+        "Kategori": "MODUL 2 : Mekanisme, Pembuatan Objek Dalam R",
+        "Soal": "Perintah yang perlu Anda gunakan untuk menghapus objek dalam R adalah ....",
+        "Pilihan_jawaban": {
+          "a": "ls()",
+          "b": "ls(pat = \"y\")",
+          "c": "ls(pat = \"^y\")",
+          "d": "rm()"
+        },
+        "Jawaban_Benar": "d"
+      },
+      {
+        "ID": "21",
+        "Kategori": "MODUL 2 : Mekanisme, Pembuatan Objek Dalam R",
+        "Soal": "Fungsi R yang digunakan apabila Anda lupa cara penulisan sebuah perintah atau fungsi adalah ....",
+        "Pilihan_jawaban": {
+          "a": "ls()",
+          "b": "help() atau ?",
+          "c": "dir()",
+          "d": "rm()"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "22",
+        "Kategori": "MODUL 2 : Mekanisme, Pembuatan Objek Dalam R",
+        "Soal": "Nilai variabel y setelah perintah berikut dijalankan adalah ....\n> x <- 10\n> y <- (x^2 + 2*x + 1)/2",
+        "Pilihan_jawaban": {
+          "a": "60.5",
+          "b": "20.5",
+          "c": "121",
+          "d": "242"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "23",
+        "Kategori": "MODUL 2 : Mekanisme, Pembuatan Objek Dalam R",
+        "Soal": "Elemen-elemen vektor y setelah perintah berikut dijalankan adalah ....\n> x <- c(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)\n> y <- 2*x + 1",
+        "Pilihan_jawaban": {
+          "a": "0 1 2 3 4 5 6 7 8 9",
+          "b": "0 2 4 6 8 10 12 14 16 18",
+          "c": "3 4 5 6 7 8 9 10 11 12",
+          "d": "1 3 5 7 9 11 13 15 17 19"
+        },
+        "Jawaban_Benar": "d"
+      },
+      {
+        "ID": "24",
+        "Kategori": "MODUL 2 : Mekanisme, Pembuatan Objek Dalam R",
+        "Soal": "Nilai variabel y setelah perintah berikut dijalankan adalah ....\n> nilai <- c(60,55,70,75,65,80,45,90,70,75)\n> y <- mean (nilai)",
+        "Pilihan_jawaban": {
+          "a": "45",
+          "b": "68.5",
+          "c": "90",
+          "d": "10"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "25",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Kategori data yang dapat dibangun oleh R antara lain deretan data teratur dan deretan data acak.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "26",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Fungsi seq(x, y, z) digunakan untuk membangun deretan data bilangan dan z menunjukkan perkalian.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "27",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Perintah x<-4:25 digunakan untuk membangun deretan bilangan bulat, mulai dari empat sampai dua puluh satu.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "28",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Fungsi gl() adalah suatu fungsi untuk membangun deretan data teratur.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "29",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Dalam fungsi gl(n,k), n adalah jumlah variabel dan k jumlah pengulangan dari setiap variabel.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "30",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Fungsi expand.grid(panjang=c(1,2),lebar=c(3,4)), tinggi=c(2,3)) akan menghasilkan enam baris data.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "31",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Fungsi untuk membangun data secara acak dalam bentuk distribusi poisson adalah rpois(n, lambda).",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "32",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Nilai kritis 5% untuk uji satu sisi dari pengujian distribusi normal diperoleh dengan fungsi qnorm(0.05).",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "33",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Data yang akan dianalisis selalu diperoleh dari hasil pengamatan di lapangan.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "34",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Perintah d <- 3:9-2 pada R akan menghasilkan deretan data bilangan bulat dengan lima elemen.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "35",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Pada R notasi k -> m ditunjukkan bahwa k adalah variabel bernilai m.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "36",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Fungsi rep() digunakan jika akan membangun vektor yang tiap elemennya bernilai sama.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "37",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Fungsi rep(n,m) akan menghasilkan vektor dengan n elemen.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "38",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "R mampu membaca data hanya dalam format Excel, Notepad, dan SAS.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "39",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "getwd(\"databaruD\") adalah perintah untuk mengambil isi file yang bernama data baru.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "40",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Perintah read.table(\"datapribadi.dat\") digunakan untuk membaca file data pribadi.dat.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "41",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Perintahread.table(file,header=False) menunjukkan file data mengandung nama variabel pada baris pertamanya.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "42",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Fungsi scan pada R dapat menentukan mode dari variabel yang akan dibacanya.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "43",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Datanilai <- scan(\"nilai.dat\", what = list(\"\",0,0,0)) Perintah ini membaca file nilai.dat yang mempunyai empat variabel.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "44",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Perintah read.fwf digunakan untuk membaca file data yang memiliki format yang berbeda.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "45",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Buffersize dalam perintah Read.fwf menentukan jumlah maksimum kolom yang dibaca secara simultan.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "46",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "write.table() adalah perintah untuk menulis suatu objek.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "47",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Opsi widths pada perintah read.fwf() digunakan untuk menentukan lebar dari suatu objek.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "48",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Kategori data yang dapat dibangun oleh R antara lain deretan data teratur dan deretan data acak.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "49",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Fungsi seq(x, y, z) digunakan untuk membangun deretan data bilangan dan z menunjukkan perkalian.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "50",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Perintah x<-4:25 digunakan untuk membangun deretan bilangan bulat, mulai dari empat sampai dua puluh satu.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "51",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Fungsi gl() adalah suatu fungsi untuk membangun deretan data teratur.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "52",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Dalam fungsi gl(n,k), n adalah jumlah variabel dan k jumlah pengulangan dari setiap variabel.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "53",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Fungsi expand.grid(panjang=c(1,2),lebar=c(3,4)), tinggi=c(2,3)) akan menghasilkan enam baris data.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "54",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Fungsi untuk membangun data secara acak dalam bentuk distribusi poisson adalah rpois(n, lambda).",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "55",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Nilai kritis 5% untuk uji satu sisi dari pengujian distribusi normal diperoleh dengan fungsi qnorm(0.05).",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "56",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Data yang akan dianalisis selalu diperoleh dari hasil pengamatan di lapangan.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "57",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Perintah d <- 3:9-2 pada R akan menghasilkan deretan data bilangan bulat dengan lima elemen.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "58",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Pada R notasi k -> m ditunjukkan bahwa k adalah variabel bernilai m.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "59",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Fungsi rep() digunakan jika akan membangun vektor yang tiap elemennya bernilai sama.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "60",
+        "Kategori": "MODUL 3 : Struktur Data Vektor dan Matriks",
+        "Soal": "Fungsi rep(n,m) akan menghasilkan vektor dengan n elemen.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "61",
+        "Kategori": "MODUL 4 : Pengolahan Objek",
+        "Soal": "Fungsi seq(k,l,m) akan menghasilkan vektor dengan urutan bilangan yang dimulai dari bilangan k hingga m.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "62",
+        "Kategori": "MODUL 4 : Pengolahan Objek",
+        "Soal": "Hasil dari perintah c(seq(1,10,2), seq(11,20,3)) adalah [1] 1 3 5 7 9 11 14 17 20.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "63",
+        "Kategori": "MODUL 4 : Pengolahan Objek",
+        "Soal": "Fungsi pengulangan rep(k,m) digunakan untuk mengulang nilai k sebanyak m kali.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "64",
+        "Kategori": "MODUL 4 : Pengolahan Objek",
+        "Soal": "Vektor dapat ditambah dan dikurang dengan menggunakan operasi aritmetika.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "65",
+        "Kategori": "MODUL 4 : Pengolahan Objek",
+        "Soal": "prod(x) adalah suatu fungsi yang akan mengoperasikan perkalian dari seluruh elemen dari vektor x.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "66",
+        "Kategori": "MODUL 4 : Pengolahan Objek",
+        "Soal": "Untuk mencari nilai tengah atau rata-rata nilai x, dapat digunakan fungsi sum(x).",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "67",
+        "Kategori": "MODUL 4 : Pengolahan Objek",
+        "Soal": "Fungsi mean(x) dan mean(rev(x)) akan menghasilkan nilai yang berbeda.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "68",
+        "Kategori": "MODUL 4 : Pengolahan Objek",
+        "Soal": "var(x) adalah fungsi untuk menghitung variansi elemen x.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "69",
+        "Kategori": "MODUL 4 : Pengolahan Objek",
+        "Soal": "Fungsi rev() akan mengurutkan elemen data dari besar ke kecil.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "70",
+        "Kategori": "MODUL 4 : Pengolahan Objek",
+        "Soal": "range(x) adalah fungsi untuk mencari nilai minimum dan maksimum dari elemen x.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "71",
+        "Kategori": "MODUL 4 : Pengolahan Objek",
+        "Soal": "Faktor dengan mode numerik dapat langsung dikonversi menjadi vektor numerik.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "72",
+        "Kategori": "MODUL 4 : Pengolahan Objek",
+        "Soal": "Operator numerik tidak berlaku pada variabel logika.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "73",
+        "Kategori": "MODUL 4 : Pengolahan Objek",
+        "Soal": "Operator perbandingan dapat menghasilkan variabel logika.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "74",
+        "Kategori": "MODUL 4 : Pengolahan Objek",
+        "Soal": "Dalam penetapan pertidaksamaan, diperlukan operator AND atau operator OR.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "75",
+        "Kategori": "MODUL 4 : Pengolahan Objek",
+        "Soal": "Operator identikal dan operator all.equal berfungsi untuk membandingkan kemiripan dua objek.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "76",
+        "Kategori": "MODUL 4 : Pengolahan Objek",
+        "Soal": "x[n,] adalah notasi untuk menampilkan elemen matriks x pada baris n.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "77",
+        "Kategori": "MODUL 4 : Pengolahan Objek",
+        "Soal": "x[x > 4 & x < 9] <-999 adalah perintah untuk mengubah nilai semua elemen x yang bernilai 4<x<9 menjadi 111.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "78",
+        "Kategori": "MODUL 4 : Pengolahan Objek",
+        "Soal": "Operator yang digunakan untuk memanipulasi objek adalah operator aritmetika, operator perbandingan, dan operator logika.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "79",
+        "Kategori": "MODUL 4 : Pengolahan Objek",
+        "Soal": "Operator perbandingan hanya berlaku pada variabel numerik.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "80",
+        "Kategori": "MODUL 4 : Pengolahan Objek",
+        "Soal": "Salah satu manfaat dari pengindeksan suatu objek adalah mengacu pada elemen tertentu dari objek yang bersangkutan.",
+        "Pilihan_jawaban": {
+          "a": "Benar",
+          "b": "Salah"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "81",
+        "Kategori": "MODUL 5 : Vektor, Matriks, Array",
+        "Soal": "Perintah yang menghasilkan array A berikut adalah ....\n```\n      [,1] [,2] [,3]\n[1,]    0    1    0\n[2,]    1    0    1\n[3,]    0    1    0\n```",
+        "Pilihan_jawaban": {
+          "a": "> A = array(0:1,dim=c(3))",
+          "b": "> A = array(0:1,dim=c(3,3))",
+          "c": "> A = array(0:1,dim=c(3,3,3))",
+          "d": "> A = array(0:1,dim=c(3,3,3,3))"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "82",
+        "Kategori": "MODUL 5 : Vektor, Matriks, Array",
+        "Soal": "Untuk soal nomor 2 sampai dengan nomor 7, diberikan array B yang dihasilkan oleh perintah berikut.\n\n`> B = array(10:50,dim=c(3,2,2))`\n\nOutput yang dihasilkan jika perintah berikut dijalankan adalah ....\n\n`> B[ , ,2]`",
+        "Pilihan_jawaban": {
+          "a": "objek berbentuk\n```\n      [,1] [,2]\n[1,]   10   13\n[2,]   11   14\n[3,]   12   15\n```",
+          "b": "objek berbentuk\n```\n      [,1] [,2]\n[1,]   16   19\n[2,]   17   20\n[3,]   18   21\n```",
+          "c": "objek berbentuk\n[1] 19 20 21",
+          "d": "objek berbentuk\n[1] 18 21"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "83",
+        "Kategori": "MODUL 5 : Vektor, Matriks, Array",
+        "Soal": "Output yang dihasilkan jika perintah berikut dijalankan adalah ....\n\n`> B[1,2,2]`",
+        "Pilihan_jawaban": {
+          "a": "[1] 19",
+          "b": "[1] 20",
+          "c": "[1] 10",
+          "d": "[1] 18"
+        },
+        "Jawaban_Benar": "c"
+      },
+      {
+        "ID": "84",
+        "Kategori": "MODUL 5 : Vektor, Matriks, Array",
+        "Soal": "Output yang dihasilkan jika perintah berikut dijalankan adalah ....\n\n`> B[2,2,2]`",
+        "Pilihan_jawaban": {
+          "a": "[1] 19",
+          "b": "[1] 20",
+          "c": "[1] 10",
+          "d": "[1] 18"
+        },
+        "Jawaban_Benar": "d"
+      },
+      {
+        "ID": "85",
+        "Kategori": "MODUL 5 : Vektor, Matriks, Array",
+        "Soal": "Output yang dihasilkan jika perintah berikut dijalankan adalah ....\n\n`> B[1,1,1]`",
+        "Pilihan_jawaban": {
+          "a": "[1] 19",
+          "b": "[1] 20",
+          "c": "[1] 10",
+          "d": "[1] 18"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "86",
+        "Kategori": "MODUL 5 : Vektor, Matriks, Array",
+        "Soal": "Pernyataan berikut benar untuk array C yang dihasilkan dari perintah berikut, kecuali ....\n\n`> C = array(c(T,F),dim=c(5,5,2))`",
+        "Pilihan_jawaban": {
+          "a": "Array tersebut memiliki tiga dimensi",
+          "b": "Nilai elemen-elemennya adalah nilai logika true atau false",
+          "c": "terdiri atas lima matriks berukuran 5x5",
+          "d": "terdiri atas dua matriks berukuran 5x5"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "87",
+        "Kategori": "MODUL 5 : Vektor, Matriks, Array",
+        "Soal": "Perintah untuk mendapatkan array D berikut adalah ....\n```\n> D\n, , 1\n\n     [,1] [,2] [,3]\n[1,]   60   75   55\n[2,]   80   90   65\n\n, , 2\n\n     [,1] [,2] [,3]\n[1,]   70   85   50\n[2,]   70   65   95\n```",
+        "Pilihan_jawaban": {
+          "a": "D = array(c(60,80,75,90,55,65,70,70,85,65,50,95),dim=c(2,3,2))",
+          "b": "D = array(c(60,80,75,90,55,65,70,70,85,65,50,95),dim=c(2,3,3))",
+          "c": "D = array(c(60,80,75,90,55,65,70,70,85,65,50,95),dim=c(2,2,3))",
+          "d": "D = array(c(60,80,75,90,55,65,70,70,85,65,50,95),dim=c(2,3,3,3))"
+        },
+        "Jawaban_Benar": "c"
+      },
+      {
+        "ID": "88",
+        "Kategori": "MODUL 5 : Vektor, Matriks, Array",
+        "Soal": "Perintah untuk mendapatkan array E berikut adalah ....\n```\n> E\n, , 1\n\n     [,1] [,2]\n[1,]  0.0  0.2\n[2,]  0.1  0.3\n\n, , 2\n\n     [,1] [,2]\n[1,]  0.4  0.6\n[2,]  0.5  0.7\n```",
+        "Pilihan_jawaban": {
+          "a": "E = array(seq(0,1,by=.1),dim=c(2,2,2))",
+          "b": "E = array(seq(0,1),dim=c(2,2,2))",
+          "c": "E = array(seq(-1,1,by=.1),dim=c(2,2,2))",
+          "d": "E = array(seq(-1,1),dim=c(2,2,2))"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "81",
+        "Kategori": "MODUL 5 : Vektor, Matriks, Array",
+        "Soal": "Perintah yang menghasilkan array A berikut adalah .... \n[,,1]\n  [,1] [,2] [,3]\n[1,]    1    0    1\n[2,]    0    1    0\n[3,]    1    0    1",
+        "Pilihan_jawaban": {
+          "a": "A = array(0:1,dim=c(3))",
+          "b": "A = array(0:1,dim=c(3,3))",
+          "c": "A = array(0:1,dim=c(3,3,3))",
+          "d": "A = array(0:1,dim=c(3,3,3,3))"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "82",
+        "Kategori": "MODUL 5 : Vektor, Matriks, Array",
+        "Soal": "Output yang dihasilkan jika perintah array B = array(10:50,dim=c(3,2,2)) B[,,2] dijalankan adalah ....",
+        "Pilihan_jawaban": {
+          "a": "objek berbentuk\n  [,1] [,2]\n[1,] 10 13\n[2,] 11 14\n[3,] 12 15",
+          "b": "objek berbentuk\n  [,1] [,2]\n[1,] 16 19\n[2,] 17 20\n[3,] 18 21",
+          "c": "objek berbentuk\n[1] 19 20 21",
+          "d": "objek berbentuk\n[1] 18 21"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "83",
+        "Kategori": "MODUL 5 : Vektor, Matriks, Array",
+        "Soal": "Output yang dihasilkan jika perintah array B = array(10:50,dim=c(3,2,2)) B[1,2,2] dijalankan adalah ....",
+        "Pilihan_jawaban": {
+          "a": "[1] 19",
+          "b": "[1] 20",
+          "c": "[1] 10",
+          "d": "[1] 18"
+        },
+        "Jawaban_Benar": "c"
+      },
+      {
+        "ID": "84",
+        "Kategori": "MODUL 5 : Vektor, Matriks, Array",
+        "Soal": "Output yang dihasilkan jika perintah array B = array(10:50,dim=c(3,2,2)) B[2,2,2] dijalankan adalah ....",
+        "Pilihan_jawaban": {
+          "a": "[1] 19",
+          "b": "[1] 20",
+          "c": "[1] 10",
+          "d": "[1] 18"
+        },
+        "Jawaban_Benar": "d"
+      },
+      {
+        "ID": "85",
+        "Kategori": "MODUL 5 : Vektor, Matriks, Array",
+        "Soal": "Output yang dihasilkan jika perintah array B = array(10:50,dim=c(3,2,2)) B[1,1,1] dijalankan adalah ....",
+        "Pilihan_jawaban": {
+          "a": "[1] 19",
+          "b": "[1] 20",
+          "c": "[1] 10",
+          "d": "[1] 18"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "86",
+        "Kategori": "MODUL 5 : Vektor, Matriks, Array",
+        "Soal": "Pernyataan berikut benar untuk array C yang dihasilkan dari perintah C = array(c(T,F),dim=c(5,5,2)), kecuali ....",
+        "Pilihan_jawaban": {
+          "a": "Array tersebut memiliki tiga dimensi",
+          "b": "Nilai elemen-elemennya adalah nilai logika true atau false",
+          "c": "Terdiri atas lima matriks berukuran 5x5",
+          "d": "Terdiri atas dua matriks berukuran 5x5"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "87",
+        "Kategori": "MODUL 5 : Vektor, Matriks, Array",
+        "Soal": "Perintah untuk mendapatkan array D berikut adalah ....\n,,1\n  [,1] [,2] [,3]\n[1,]   60   75   55\n[2,]   80   90   65\n\n,,2\n  [,1] [,2] [,3]\n[1,]   70   85   50\n[2,]   70   65   95",
+        "Pilihan_jawaban": {
+          "a": "D = array(c(60,80,75,90,55,65,70,70,85,65,50,95),dim=c(2,3,3))",
+          "b": "D = array(c(60,80,75,90,55,65,70,70,85,65,50,95),dim=c(2,3,2))",
+          "c": "D = array(c(60,80,75,90,55,65,70,70,85,65,50,95),dim=c(2,2,3))",
+          "d": "D = array(c(60,80,75,90,55,65,70,70,85,65,50,95),dim=c(2,3,3))"
+        },
+        "Jawaban_Benar": "c"
+      },
+      {
+        "ID": "88",
+        "Kategori": "MODUL 5 : Vektor, Matriks, Array",
+        "Soal": "Perintah untuk mendapatkan array E berikut adalah ....\n,,1\n  [,1] [,2]\n[1,]  0.0  0.2\n[2,]  0.1  0.3\n\n,,2\n  [,1] [,2]\n[1,]  0.4  0.6\n[2,]  0.5  0.7",
+        "Pilihan_jawaban": {
+          "a": "E = array(seq(0,1,by=.1),dim=c(2,2,2))",
+          "b": "E = array(seq(0,1),dim=c(2,2,2))",
+          "c": "E = array(seq(-1,1,by=.1),dim=c(2,2,2))",
+          "d": "E = array(seq(-1,1),dim=c(2,2,2))"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "89",
+        "Kategori": "MODUL 5 : Vektor, Matriks, Array",
+        "Soal": "Perintah yang TIDAK menghasilkan matriks berukuran 4x2 adalah ....",
+        "Pilihan_jawaban": {
+          "a": "matrix(c(1,2,3,4,5,6,7,8),nrow=4,ncol=2)",
+          "b": "matrix(c(1:8),nrow=4)",
+          "c": "matrix(c(1:4,11:14),ncol=2)",
+          "d": "matrix(c(1,2,3,4,5,6,7,8),ncol=4)"
+        },
+        "Jawaban_Benar": "d"
+      },
+      {
+        "ID": "90",
+        "Kategori": "MODUL 5 : Vektor, Matriks, Array",
+        "Soal": "data=c(6.4,8.8,7.5,5.3,7.6,9.5) Perintah A=matrix(data,ncol=4) menghasilkan matriks A dengan ....",
+        "Pilihan_jawaban": {
+          "a": "jumlah kolom 8",
+          "b": "jumlah baris 2",
+          "c": "jumlah baris 4",
+          "d": "jumlah kolom4 dan jumlah baris 4"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "91",
+        "Kategori": "MODUL 5 : Vektor, Matriks, Array",
+        "Soal": "Perintah length(A) menghasilkan nilai ....",
+        "Pilihan_jawaban": {
+          "a": "4",
+          "b": "2",
+          "c": "10",
+          "d": "8"
+        },
+        "Jawaban_Benar": "d"
+      },
+      {
+        "ID": "92",
+        "Kategori": "MODUL 5 : Vektor, Matriks, Array",
+        "Soal": "Hasil perintah dim(A) adalah ....",
+        "Pilihan_jawaban": {
+          "a": "4",
+          "b": "4 4",
+          "c": "4 2",
+          "d": "2 4"
+        },
+        "Jawaban_Benar": "d"
+      },
+      {
+        "ID": "93",
+        "Kategori": "MODUL 5 : Vektor, Matriks, Array",
+        "Soal": "Hasil perintah mode(A) adalah ....",
+        "Pilihan_jawaban": {
+          "a": "\"numeric\"",
+          "b": "\"function\"",
+          "c": "\"integer\"",
+          "d": "\"name\""
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "94",
+        "Kategori": "MODUL 5 : Vektor, Matriks, Array",
+        "Soal": "Perintah B=A*A menghasilkan matriks B dengan ....",
+        "Pilihan_jawaban": {
+          "a": "jumlah baris matriks B sama dengan jumlah baris matriks A",
+          "b": "jumlah baris matriks B lebih kecil dari jumlah baris matriks A",
+          "c": "jumlah kolom matriks B adalah 2",
+          "d": "jumlah baris matriks B adalah 3"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "95",
+        "Kategori": "MODUL 5 : Vektor, Matriks, Array",
+        "Soal": "Perintah C=cbind(A,c(1,2)) menghasilkan matriks C sebagai berikut, kecuali ....",
+        "Pilihan_jawaban": {
+          "a": "jumlah baris matriks C lebih besar dari jumlah baris matriks A",
+          "b": "jumlah kolom matriks C sama dengan jumlah kolom matriks A",
+          "c": "jumlah baris matriks C adalah 3",
+          "d": "jumlah kolom matriks C adalah 5"
+        },
+        "Jawaban_Benar": "d"
+      },
+      {
+        "ID": "96",
+        "Kategori": "MODUL 5 : Vektor, Matriks, Array",
+        "Soal": "Perintah untuk menambahkan kolom ke-5 pada matriks A adalah ....",
+        "Pilihan_jawaban": {
+          "a": "cbind(A,c(1,2))",
+          "b": "rbind(A,c(1,2))",
+          "c": "cbind(c(5,5),A)",
+          "d": "rbind(c(5,5),A)"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "97",
+        "Kategori": "MODUL 5 : Vektor, Matriks, Array",
+        "Soal": "Perintah untuk menambahkan baris ke-1 pada matriks A adalah ....",
+        "Pilihan_jawaban": {
+          "a": "cbind(A,c(1,2,3,4))",
+          "b": "rbind(c(5,6,7,8),A)",
+          "c": "cbind(c(5,6,7,8),A)",
+          "d": "rbind(A,c(1,2,3,4))"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "98",
+        "Kategori": "MODUL 5 : Vektor, Matriks, Array",
+        "Soal": "Berikut adalah operasi matriks yang dapat dilakukan pada program R, kecuali ....",
+        "Pilihan_jawaban": {
+          "a": "A * B",
+          "b": "A # B",
+          "c": "A + B",
+          "d": "A - B"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "106",
+        "Kategori": "MODUL 7 : Dataset Dalam R dan Import Data",
+        "Soal": "Perintah untuk memuat dataset women yang tersedia pada package datasets adalah ....",
+        "Pilihan_jawaban": {
+          "a": "str(women)",
+          "b": "names(women)",
+          "c": "data(women)",
+          "d": "dim(women)"
+        },
+        "Jawaban_Benar": "c"
+      },
+      {
+        "ID": "107",
+        "Kategori": "MODUL 7 : Dataset Dalam R dan Import Data",
+        "Soal": "Perintah untuk mendapatkan ukuran dari dataset women adalah ....",
+        "Pilihan_jawaban": {
+          "a": "str(women)",
+          "b": "names(women)",
+          "c": "data(women)",
+          "d": "dim(women)"
+        },
+        "Jawaban_Benar": "d"
+      },
+      {
+        "ID": "108",
+        "Kategori": "MODUL 7 : Dataset Dalam R dan Import Data",
+        "Soal": "Perintah untuk mendapatkan nama-nama atribut (field) dari dataset women adalah ....",
+        "Pilihan_jawaban": {
+          "a": "str(women)",
+          "b": "names(women)",
+          "c": "data(women)",
+          "d": "dim(women)"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "109",
+        "Kategori": "MODUL 7 : Dataset Dalam R dan Import Data",
+        "Soal": "Perintah untuk mendapatkan lima nilai pertama dari atribut weight dalam dataset women adalah ....",
+        "Pilihan_jawaban": {
+          "a": "women[1:5,weight]",
+          "b": "women[1:5,\"weight\"]",
+          "c": "list[1:5,\"women$weight\"]",
+          "d": "women[1:5,women$weight]"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "110",
+        "Kategori": "MODUL 7 : Dataset Dalam R dan Import Data",
+        "Soal": "Jika data file tes.txt (file dari Notepad) berada pada direktori C. Direktori C adalah direktori kerja R sehingga perintah untuk meng-import data pada file tes.txt sebagai berikut, kecuali ....",
+        "Pilihan_jawaban": {
+          "a": "scan(\"tes.txt\")",
+          "b": "datatest=scan(\"tes.txt\")",
+          "c": "scan(\"C:\\\\tes.txt\")",
+          "d": "read.table(\"tes.txt\")"
+        },
+        "Jawaban_Benar": "d"
+      },
+      {
+        "ID": "111",
+        "Kategori": "MODUL 7 : Dataset Dalam R dan Import Data",
+        "Soal": "Perintah read.table (\"tes.txt\",header=TRUE) TIDAK digunakan jika ....",
+        "Pilihan_jawaban": {
+          "a": "tes.txt adalah file ASCII dari notepad",
+          "b": "tes.txt adalah file Excel yang sudah diubah",
+          "c": "tes.txt berada di direktori kerja R",
+          "d": "terdapat nama variabel pada baris pertama file tes.txt"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "112",
+        "Kategori": "MODUL 7 : Dataset Dalam R dan Import Data",
+        "Soal": "Perintah data lat = read.csv (\"data.csv\", header=TRUE) TIDAK digunakan jika ....",
+        "Pilihan_jawaban": {
+          "a": "data.csv adalah file Excel yang sudah diubah",
+          "b": "data.csv adalah file yang ingin di-import",
+          "c": "file yang di-import diberi nama data lat",
+          "d": "Tidak terdapat nama variabel pada baris pertama file data.csv"
+        },
+        "Jawaban_Benar": "d"
+      },
+      {
+        "ID": "113",
+        "Kategori": "MODUL 7 : Dataset Dalam R dan Import Data",
+        "Soal": "Perintah berikut TIDAK dapat dikerjakan oleh program R, yaitu ....",
+        "Pilihan_jawaban": {
+          "a": "matrix(scan(\"latihan.txt\"),6)",
+          "b": "read.table(\"latihan.txt\")",
+          "c": "read.csv(\"latihan.csv\", header=TRUE)",
+          "d": "Tidak ada"
+        },
+        "Jawaban_Benar": "d"
+      },
+      {
+        "ID": "114",
+        "Kategori": "MODUL 7 : Dataset Dalam R dan Import Data",
+        "Soal": "Jika data file Excel dengan format .XLS ingin di-import ke program R, berikut adalah caranya, kecuali ....",
+        "Pilihan_jawaban": {
+          "a": "harus diubah dulu ke bentuk .txt",
+          "b": "harus diubah dulu ke bentuk .csv",
+          "c": "dengan perintah scan (\"namafile.xls\")",
+          "d": "dengan perintah read.table (\"namafile.txt\")"
+        },
+        "Jawaban_Benar": "c"
+      },
+      {
+        "ID": "115",
+        "Kategori": "MODUL 7 : Dataset Dalam R dan Import Data",
+        "Soal": "Jika data file ASCII yang dibuat menggunakan notepad ingin di-import ke program R, ....",
+        "Pilihan_jawaban": {
+          "a": "harus diubah dulu ke bentuk .csv",
+          "b": "dengan perintah scan (\"namafile.txt\")",
+          "c": "dengan perintah scan (\"namafile.xls\")",
+          "d": "dengan perintah read.csv (\"namafile.csv\")"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "116",
+        "Kategori": "MODUL 7 : Dataset Dalam R dan Import Data",
+        "Soal": "Perintah untuk memuat dataset women yang tersedia pada package datasets adalah ....",
+        "Pilihan_jawaban": {
+          "a": "str(women)",
+          "b": "names(women)",
+          "c": "data(women)",
+          "d": "dim(women)"
+        },
+        "Jawaban_Benar": "c"
+      },
+      {
+        "ID": "117",
+        "Kategori": "MODUL 7 : Dataset Dalam R dan Import Data",
+        "Soal": "Perintah untuk mendapatkan ukuran dari dataset women adalah ....",
+        "Pilihan_jawaban": {
+          "a": "str(women)",
+          "b": "names(women)",
+          "c": "data(women)",
+          "d": "dim(women)"
+        },
+        "Jawaban_Benar": "d"
+      },
+      {
+        "ID": "118",
+        "Kategori": "MODUL 7 : Dataset Dalam R dan Import Data",
+        "Soal": "Perintah untuk mendapatkan nama-nama atribut (field) dari dataset women adalah ....",
+        "Pilihan_jawaban": {
+          "a": "str(women)",
+          "b": "names(women)",
+          "c": "data(women)",
+          "d": "dim(women)"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "119",
+        "Kategori": "MODUL 7 : Dataset Dalam R dan Import Data",
+        "Soal": "Perintah untuk mendapatkan lima nilai pertama dari atribut weight dalam dataset women adalah ....",
+        "Pilihan_jawaban": {
+          "a": "women[1:5,weight]",
+          "b": "women[1:5,\"weight\"]",
+          "c": "list[1:5,\"women$weight\"]",
+          "d": "women[1:5,women$weight]"
+        },
+        "Jawaban_Benar": "b"
+      },
+      {
+        "ID": "120",
+        "Kategori": "MODUL 7 : Dataset Dalam R dan Import Data",
+        "Soal": "Jika data file tes.txt (file dari Notepad) berada pada direktori C. Direktori C adalah direktori kerja R sehingga perintah untuk meng-import data pada file tes.txt sebagai berikut, kecuali ....",
+        "Pilihan_jawaban": {
+          "a": "scan(\"tes.txt\")",
+          "b": "datatest=scan(\"tes.txt\")",
+          "c": "scan(\"C:\\\\tes.txt\")",
+          "d": "read.table(\"tes.txt\")"
+        },
+        "Jawaban_Benar": "d"
+      },
+      {
+        "ID": "121",
+        "Kategori": "MODUL 7 : Dataset Dalam R dan Import Data",
+        "Soal": "Perintah read.table (\"tes.txt\",header=TRUE) TIDAK digunakan jika ....",
+        "Pilihan_jawaban": {
+          "a": "tes.txt adalah file ASCII dari notepad",
+          "b": "tes.txt adalah file Excel yang sudah diubah",
+          "c": "tes.txt berada di direktori kerja R",
+          "d": "terdapat nama variabel pada baris pertama file tes.txt"
+        },
+        "Jawaban_Benar": "a"
+      },
+      {
+        "ID": "122",
+        "Kategori": "MODUL 7 : Dataset Dalam R dan Import Data",
+        "Soal": "Perintah data lat = read.csv (\"data.csv\", header=TRUE) TIDAK digunakan jika ....",
+        "Pilihan_jawaban": {
+          "a": "data.csv adalah file Excel yang sudah diubah",
+          "b": "data.csv adalah file yang ingin di-import",
+          "c": "file yang di-import diberi nama data lat",
+          "d": "Tidak terdapat nama variabel pada baris pertama file data.csv"
+        },
+        "Jawaban_Benar": "d"
+      },
+      {
+        "ID": "123",
+        "Kategori": "MODUL 7 : Dataset Dalam R dan Import Data",
+        "Soal": "Perintah berikut TIDAK dapat dikerjakan oleh program R, yaitu ....",
+        "Pilihan_jawaban": {
+          "a": "matrix(scan(\"latihan.txt\"),6)",
+          "b": "read.table(\"latihan.txt\")",
+          "c": "read.csv(\"latihan.csv\", header=TRUE)",
+          "d": "Tidak ada"
+        },
+        "Jawaban_Benar": "d"
+      },
+      {
+        "ID": "124",
+        "Kategori": "MODUL 7 : Dataset Dalam R dan Import Data",
+        "Soal": "Jika data file Excel dengan format .XLS ingin di-import ke program R, berikut adalah caranya, kecuali ....",
+        "Pilihan_jawaban": {
+          "a": "harus diubah dulu ke bentuk .txt",
+          "b": "harus diubah dulu ke bentuk .csv",
+          "c": "dengan perintah scan (\"namafile.xls\")",
+          "d": "dengan perintah read.table (\"namafile.txt\")"
+        },
+        "Jawaban_Benar": "c"
+      },
+      {
+        "ID": "125",
+        "Kategori": "MODUL 7 : Dataset Dalam R dan Import Data",
+        "Soal": "Jika data file ASCII yang dibuat menggunakan notepad ingin di-import ke program R, ....",
+        "Pilihan_jawaban": {
+          "a": "harus diubah dulu ke bentuk .csv",
+          "b": "dengan perintah scan (\"namafile.txt\")",
+          "c": "dengan perintah scan (\"namafile.xls\")",
+          "d": "dengan perintah read.csv (\"namafile.csv\")"
+        },
+        "Jawaban_Benar": "b"
+      }
+    ]
